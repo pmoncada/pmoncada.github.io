@@ -7,7 +7,6 @@
         background: #eee;
         color: #333
       }
-
       main {
         position: absolute;
         width: 80%;
@@ -22,6 +21,11 @@
         width: 100%;
       }
     </style>
+    <platform name="android">
+        <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
+            <application android:usesCleartextTraffic="true" />
+        </edit-config>
+    </platform>
   </head>
   <body>
     <main>
