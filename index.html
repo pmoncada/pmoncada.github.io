@@ -15,11 +15,11 @@
         margin-left: 0px;
       }
       textarea {
-        width: 80%;
+        width: 100%;
         height: 200px;
       }
       input {
-        width: 80%;
+        width: 100%;
       }
     </style>
   </head>
@@ -44,11 +44,11 @@
         
       <form name="contact" method="POST" data-netlify="true">
         <br/>
-          <label>Name <input type="text" name="name" /></label>
+          <label>Name <br/><input type="text" name="name" /></label>
         <br/>  
-          <label>Email <input type="email" name="email" /></label>
+          <label>Email or Phone #<br/> <input type="email" name="email" /></label>
         <br/>
-          <label>Message <textarea name="message"></textarea></label>
+          <label>Message<br/><textarea name="message"></textarea></label>
         <br/>
           <button type="submit">Send</button>
       </form>
