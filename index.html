@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>pablo's cool site</title>
+    <title>hey hi hello</title>
     <style>
       body {
         background: #eee;
@@ -10,14 +10,21 @@
       main {
         position: absolute;
         width: 720px;
-        left: 50%;
-        margin-left: -360px;
+        left: 10%;
+        margin-left: 0px;
+      }
+      textarea {
+        width: 720px;
+        height: 200px;
+      }
+      input {
+        width: 360px;
       }
     </style>
   </head>
   <body>
     <main>
-      <h1>I'm Pablo</h1>
+      <h1>I want to meet you (probably)</h1>
       <hr />
 	These are some topics I'm really interested in, if you (or someone you know) happens to know a lot about any of them, I'd love to meet them and get coffee (or whatever) with you/them.
 	<br/>
@@ -30,21 +37,19 @@
 	<br/> Music (listening/composition)
 	<br/> Tissue Engineering using stem cells
 	<br/> CRISPR
-	<br/> Start-ups, genrally
+	<br/> Start-ups, generally
 	<br/> Plato / Ben Franklin / Da Vinci
+        <br/> <br/> <br/> If you write something in these boxes it'll send me an email and I can get back to you
+        
       <form name="contact" netlify>
-        <p>
+        <br/>
           <label>Name <input type="text" name="name" /></label>
-        </p>
-        <p>
+        <br/>  
           <label>Email <input type="email" name="email" /></label>
-        </p>
-        <p>
+        <br/>
           <label>Message <textarea name="message"></textarea></label>
-        </p>
-        <p>
+        <br/>
           <button type="submit">Send</button>
-        </p>
       </form>
     </main>
   </body>
