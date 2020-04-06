@@ -1,7 +1,42 @@
-I'm Pablo Moncada-Larrotiz, I'm interested in developing new technologies that will make our lives better, and hopefully more fun too.
+<html>
+  <head>
+    <title>hey</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+      body {
+        background: #eee;
+        color: #333
+      }
+      main {
+        position: absolute;
+        width: 80%;
+        left: 10%;
+        margin-left: 0px;
+      }
+      textarea {
+        width: 100%;
+        height: 200px;
+      }
+      input {
+        width: 100%;
+      }
+    </style>
+    <platform name="android">
+        <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
+            <application android:usesCleartextTraffic="true" />
+        </edit-config>
+    </platform>
+  </head>
+  <body>
+    <main>
+      <hr /> I'm Pablo Moncada-Larrotiz, I'm interested in developing new technologies that will make our lives better, and hopefully more fun too.
 
-I currently live in San Francisco, where I work as a Software Engineer at Google. I was born in Michigan, my parents are from Spain, and I was raised in both places.
+I currently live in San Francisco, where I work as a Software Engineer at Google.
 
 At Google I work on progressing the advent of 6DOF video for virtual reality, and exoskeletons for improving lower body mobility. Before Google, I worked at a biotech start up where I worked on a bioreactor to scale up the production of engineered human tissues.
 
 I want to make an upper body exoskeleton to help us fly, I think about that a lot.
+        <br/>
+    </main>
+  </body>
+</html>
