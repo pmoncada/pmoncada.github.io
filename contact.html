@@ -27,22 +27,25 @@
         </edit-config>
     </platform>
   </head>
-    <body>
-      <main>
+  <body>
+    <main>
+      <h1>Contact</h1>
+      <hr /> 
+      <br/> <br/> If you don't have my contact info, you can write something in these boxes and it'll send me an email so I can get back to you:
+        
+      <form name="contact" method="POST" data-netlify="true">
         <br/>
-        <h1>6dof video</h1>
+          <label>Name <br/><input type="text" name="name" /></label>
+        <br/>  
+          <label>Email or Phone #<br/> <input type="email" name="email" /></label>
         <br/>
-        6DOF video stands for 6 degree of freedom video.
+          <label>Message<br/><textarea name="message"></textarea></label>
         <br/>
-        <br/>
-        This just means you can rotate and move your head in 6 degrees of freedom (pitch, yaw, roll, x, y, z).
-        <br/>
-        <br/>
-        Real life is 6dof. If we want to create a realitic simulation, we need 6dof video. 
-        <br/>
-        <br/>
-        <br/>
-        <a href="index">Back</a>    
+          <button type="submit">Send</button>
+      </form>
     </main>
   </body>
 </html>
+
+
+
