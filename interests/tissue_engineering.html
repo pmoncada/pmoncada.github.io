@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>hey</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+      body {
+        background: #eee;
+        color: #333
+      }
+      main {
+        position: absolute;
+        width: 80%;
+        left: 10%;
+        margin-left: 0px;
+      }
+      textarea {
+        width: 100%;
+        height: 200px;
+      }
+      input {
+        width: 100%;
+      }
+    </style>
+    <platform name="android">
+        <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
+            <application android:usesCleartextTraffic="true" />
+        </edit-config>
+    </platform>
+  </head>
+    <body>
+      <main>
+        <br/>
+        <h1>Tissue Engineering</h1>
+        TODO<br/><br/>
+        <a href="../index">Back</a>
+	<br/><br/>
+    </main>
+  </body>
+</html>
